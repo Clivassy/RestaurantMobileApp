@@ -11,7 +11,7 @@ const SearchBar = ({ term, onTermChange, onTermSubmit}) => {
             autoCorrect={false}
             style={styles.inputStyle}
             placeholder="Search"
-            value={term}
+            //value={term}
             // onChangeText={newTerm => onTermChange(newTerm)}
             //  onEndEditing={() => onTermSubmit()}
             // we call also simply pass a reference to thse function with
